@@ -1,0 +1,12 @@
+{
+  "dependencies":{
+    "nodemon":"*",
+    "express":"*",
+    "mongoose": "*"
+  },
+  "scripts":{
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src/index.js"
+  },
+  "type": "module"
+}
